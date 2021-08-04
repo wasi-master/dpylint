@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="dpylint",
-    version="0.1.0",
+    version="0.1.1",
     author="Wasi Master",
     author_email="arianmollik323@gmail.com",
-    description="A package for analyzing Python code using pylint",
+    description="A pylint extension for analyzing python files that use the discord.py library",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://wasi-master.github.io/dpylint/",
