@@ -81,6 +81,7 @@ In order to use the extension with vscode, make sure you have the python extensi
 | no-permissions-specified         | W9003          | There should be at least one valid permission passed to has_permissions
 | invalid-event-name               | E9004          | An invalid event was used (for a list of valid events see [the docs](https://discordpy.readthedocs.io/en/latest/api.html#event-reference))
 | invalid-event-params             | E9005          | The event signature has invalid parameters
+
 More checkers will be added in the future
 
 ## Contributing
