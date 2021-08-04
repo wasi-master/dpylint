@@ -115,7 +115,7 @@ _For more examples such as vscode installation, usage without pylintrc file, ple
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [todo list](TODO_LIST.md) for a list of features yet to be added(and known issues).
+See the [todo list](https://github.com/wasi-master/dpylint/blob/main/TODO_LIST.md) for a list of features yet to be added(and known issues).
 Also see the [open issues](https://github.com/wasi-master/dpylint/issues) issues.
 
 <!-- CONTRIBUTING -->

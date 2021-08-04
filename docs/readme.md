@@ -88,4 +88,4 @@ More checkers will be added in the future
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-* For a list of things that need to be done, see the [todo list]([TODO_LIST.md](https://github.com/wasi-master/dpylint/blob/main/TODO_LIST.md))
+* For a list of things that need to be done, see the [todo list](https://github.com/wasi-master/dpylint/blob/main/TODO_LIST.md)
