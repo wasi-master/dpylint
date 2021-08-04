@@ -30,6 +30,8 @@
 [![Code Size][code-size-shield]][code-size-url]
 [![MIT License][license-shield]][license-url]
 [![Say Thanke][say-thanks-badge]][say-thanks-url]
+[![Downloads][downloads-badge]][downloads-url]
+[![Version][version-badge]][version-url]
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -168,4 +170,7 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 [code-size-url]: https://github.com/wasi-master/dpylint
 [say-thanks-badge]: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
 [say-thanks-url]: https://saythanks.io/to/arianmollik323@gmail.com
-
+[downloads-badge]: https://img.shields.io/pypi/dm/dpylint.svg?label=downloads%20%28last%20month%29
+[downloads-url]: https://pypistats.org/packages/dpylint
+[version-badge]: https://img.shields.io/pypi/v/dpylint.svg
+[version-url]: https://pypi.org/project/dpylint/#history
