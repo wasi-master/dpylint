@@ -11,9 +11,12 @@ setuptools.setup(
     description="A package for analyzing Python code using pylint",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/wasi-master/dpylint",
+    url="https://wasi-master.github.io/dpylint/",
     project_urls={
         "Bug Tracker": "https://github.com/wasi-master/dpylint/issues",
+        'Source': 'https://github.com/wasi-master/dpylint',
+        'Documentation': 'https://wasi-master.github.io/dpylint/',
+        'Say Thanks':''
     },
     license="MIT",
     classifiers=[
