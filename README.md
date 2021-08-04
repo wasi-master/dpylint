@@ -111,7 +111,7 @@ Create a new file called `.pylintrc` and add this to that file
 load-plugins=dpylint
 ```
 
-_For more examples such as vscode installation, usage without pylintrc file, please refer to the [Documentation](docs/readme.md)_
+_For more examples such as vscode installation, usage without pylintrc file, please refer to the [Documentation](https://wasi-master.github.io/dpylint/)_
 
 <!-- ROADMAP -->
 ## Roadmap
