@@ -8,8 +8,14 @@ You'll need to have [python](https://www.python.org) and [pylint](https://www.py
 
 Currently there are two ways to install dpylint
 
-* Directly installing via pip
-  1. Installing using pip and git
+* Installing via pip
+  1. Directly installing via pip (Recommended)
+
+     ```sh
+     pip install dpylint
+     ```
+
+  2. Installing using pip and git
 
      ```sh
      pip install git+https://github.com/wasi-master/dpylint.git
