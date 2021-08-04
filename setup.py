@@ -16,7 +16,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/wasi-master/dpylint/issues",
         'Source': 'https://github.com/wasi-master/dpylint',
         'Documentation': 'https://wasi-master.github.io/dpylint/',
-        'Say Thanks':''
+        'Say Thanks':'https://saythanks.io/to/arianmollik323@gmail.com'
     },
     license="MIT",
     classifiers=[
