@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/wasi-master/dpylint">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/wasi-master/dpylint/main/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h2 align="center">dpylint</h2>
@@ -57,11 +57,10 @@
   </ol>
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](images/banner.png)](https://example.com)
+[![Product Name Screen Shot](https://raw.githubusercontent.com/wasi-master/dpylint/main/images/banner.png)](https://example.com)
 dpylint is a pylint extension that lints python code written for a discord bot
 
 ### Built With
@@ -134,7 +133,7 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](license.md) for more information.
-
+7RR6L9cGZaKxUki
 <!-- CONTACT -->
 ## Contact
 
