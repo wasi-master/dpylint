@@ -1,12 +1,5 @@
 <!-- markdownlint-disable-file MD033-->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Code Size][code-size-shield]][code-size-url]
-[![MIT License][license-shield]][license-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -14,12 +7,12 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">dpylint</h3>
+  <h2 align="center">dpylint</h2>
 
   <p align="center">
     An pylint extension for linting discord.py
     <br />
-    <a href="https://github.com/wasi-master/dpylint"><strong>Explore the docs »</strong></a>
+    <a href="https://wasi-master.github.io/dpylint/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/wasi-master/dpylint">View Demo</a>
@@ -29,6 +22,14 @@
     <a href="https://github.com/wasi-master/dpylint/issues">Request Feature</a>
   </p>
 </p>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Code Size][code-size-shield]][code-size-url]
+[![MIT License][license-shield]][license-url]
+[![Say Thanke][say-thanks-badge]][say-thanks-url]
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -55,6 +56,7 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -165,3 +167,6 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 [license-url]: https://github.com/wasi-master/dpylint/blob/master/LICENSE.txt
 [code-size-shield]: https://img.shields.io/github/languages/code-size/wasi-master/dpylint.svg?style=flat
 [code-size-url]: https://github.com/wasi-master/dpylint
+[say-thanks-badge]: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+[say-thanks-url]: https://saythanks.io/to/arianmollik323@gmail.com
+
