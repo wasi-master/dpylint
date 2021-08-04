@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="dpylint",
-    version="0.1.1",
+    version="0.1.5",
     author="Wasi Master",
     author_email="arianmollik323@gmail.com",
     description="A package for analyzing Python code using pylint",
