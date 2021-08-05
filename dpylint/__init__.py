@@ -7,6 +7,6 @@ from .checkers import HasPermissionsChecker, EventsChecker
 
 
 def register(linter):
-    """Registers the linter to pylint"""
+    """Registers the linters to pylint"""
     linter.register_checker(HasPermissionsChecker(linter))
     linter.register_checker(EventsChecker(linter))
