@@ -23,17 +23,20 @@
   </p>
 </p>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Code Size][code-size-shield]][code-size-url]
-[![MIT License][license-shield]][license-url]
-[![Say Thanke][say-thanks-badge]][say-thanks-url]
-[![Downloads][downloads-badge]][downloads-url]
-[![Version][version-badge]][version-url]
-[![Tests][test-badge]][test-url]
-[![Build][build-badge]][build-url]
+<p align="center">
+   <a href="https://github.com/wasi-master/dpylint/graphs/contributors"><img src="https://img.shields.io/github/contributors/wasi-master/dpylint.svg?style=flat" alt="Contributors"></a>
+   <a href="https://github.com/wasi-master/dpylint/network/members"><img src="https://img.shields.io/github/forks/wasi-master/dpylint.svg?style=flat" alt="Forks"></a>
+   <a href="https://github.com/wasi-master/dpylint/stargazers"><img src="https://img.shields.io/github/stars/wasi-master/dpylint.svg?style=flat" alt="Stargazers"></a>
+   <a href="https://github.com/wasi-master/dpylint/issues"><img src="https://img.shields.io/github/issues/wasi-master/dpylint.svg?style=flat" alt="Issues"></a>
+   <a href="https://github.com/wasi-master/dpylint"><img src="https://img.shields.io/github/languages/code-size/wasi-master/dpylint.svg?style=flat" alt="Code Size"></a>
+   <a href="https://github.com/wasi-master/dpylint/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/wasi-master/dpylint.svg?style=flat" alt="MIT License"></a>
+   <a href="https://saythanks.io/to/arianmollik323@gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanke"></a>
+   <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dm/dpylint.svg?style=flat" alt="Downloads"></a>
+   <a href="https://pypi.org/project/dpylint/#history"><img src="https://img.shields.io/pypi/v/dpylint.svg" alt="Version"></a>
+   <a href="https://github.com/wasi-master/dpylint/actions/workflows/python-app.yml"><img src="https://img.shields.io/github/workflow/status/wasi-master/dpylint/Python%20application.svg?label=tests" alt="Tests"></a>
+   <a href="https://github.com/wasi-master/dpylint/actions/workflows/python-publish.yml"><img src="https://img.shields.io/github/workflow/status/wasi-master/dpylint/Upload%20Python%20Package.svg?label=build" alt="Build"></a>
+   <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -186,3 +189,5 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 [test-url]: https://github.com/wasi-master/dpylint/actions/workflows/python-app.yml
 [build-badge]: https://img.shields.io/github/workflow/status/wasi-master/dpylint/Upload%20Python%20Package.svg?label=build
 [build-url]: https://github.com/wasi-master/dpylint/actions/workflows/python-publish.yml
+[black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg
+[black-url]: https://github.com/psf/black
