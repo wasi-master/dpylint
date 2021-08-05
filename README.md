@@ -1,7 +1,7 @@
 <!-- markdownlint-disable-file MD033-->
 
 <!-- PROJECT LOGO -->
-<br />
+<br/>
 <p align="center">
   <a href="https://github.com/wasi-master/dpylint">
     <img src="https://raw.githubusercontent.com/wasi-master/dpylint/main/images/logo.png" alt="Logo" width="80" height="80">
@@ -32,6 +32,8 @@
 [![Say Thanke][say-thanks-badge]][say-thanks-url]
 [![Downloads][downloads-badge]][downloads-url]
 [![Version][version-badge]][version-url]
+[![Tests][test-badge]][test-url]
+[![Build][build-badge]][build-url]
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -62,7 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](https://raw.githubusercontent.com/wasi-master/dpylint/main/images/banner.png)](https://example.com)
+[![dpylint banner](https://raw.githubusercontent.com/wasi-master/dpylint/main/images/banner.png)](https://wasi-master.github.io/dpylint/)
 dpylint is a pylint extension that lints python code written for a discord bot
 
 ### Built With
@@ -176,7 +178,11 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 [code-size-url]: https://github.com/wasi-master/dpylint
 [say-thanks-badge]: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
 [say-thanks-url]: https://saythanks.io/to/arianmollik323@gmail.com
-[downloads-badge]: https://img.shields.io/pypi/dm/dpylint.svg?label=downloads%20%28last%20month%29
+[downloads-badge]: https://img.shields.io/pypi/dm/dpylint.svg?style=flat
 [downloads-url]: https://pypistats.org/packages/dpylint
 [version-badge]: https://img.shields.io/pypi/v/dpylint.svg
 [version-url]: https://pypi.org/project/dpylint/#history
+[test-badge]: https://img.shields.io/github/workflow/status/wasi-master/dpylint/Python%20application.svg?label=tests
+[test-url]: https://github.com/wasi-master/dpylint/actions/workflows/python-app.yml
+[build-badge]: https://img.shields.io/github/workflow/status/wasi-master/dpylint/Upload%20Python%20Package.svg?label=build
+[build-url]: https://github.com/wasi-master/dpylint/actions/workflows/python-publish.yml
