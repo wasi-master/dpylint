@@ -73,11 +73,11 @@ dpylint is a pylint extension that lints python code written for a discord bot
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a dpylint installed.
+To install dpylint:
 
 ### Prerequisites
 
-You'll need to have [python](https://www.python.org) and after that, [pylint](https://www.pylint.org) installed in order to use the extension
+You'll need to have [python](https://www.python.org) and [pylint](https://www.pylint.org) installed in order to use the extension
 
 ### Installation
 
