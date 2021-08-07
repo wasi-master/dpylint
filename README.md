@@ -15,7 +15,7 @@
     <a href="https://wasi-master.github.io/dpylint/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/wasi-master/dpylint">View Demo</a>
+    <a href="https://github.com/wasi-master/dpylint/blob/main/demo.md">View Demo</a>
     ·
     <a href="https://github.com/wasi-master/dpylint/issues">Report Bug</a>
     ·
@@ -69,6 +69,7 @@
 
 [![dpylint banner](https://raw.githubusercontent.com/wasi-master/dpylint/main/images/banner.png)](https://wasi-master.github.io/dpylint/)
 dpylint is a pylint extension that lints python code written for a discord bot
+For a demo see [demo.md](https://github.com/wasi-master/dpylint/blob/main/demo.md)
 
 ### Built With
 
@@ -160,14 +161,14 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 ## Acknowledgements
 
 * Cyrus from the official discord.py server
-  * For the event idea
+  * For the event checking idea
 
 * Gnome from the official discord.py server
   * For the idea to check for aliases. e.g. ctx.channel.send instead of ctx.send
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/wasi-master/dpylint.svg?style=flat
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/wasi-master/dpylint.svg?style=flat
 [contributors-url]: https://github.com/wasi-master/dpylint/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/wasi-master/dpylint.svg?style=flat
 [forks-url]: https://github.com/wasi-master/dpylint/network/members
@@ -190,4 +191,4 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 [build-badge]: https://img.shields.io/github/workflow/status/wasi-master/dpylint/Upload%20Python%20Package.svg?label=build
 [build-url]: https://github.com/wasi-master/dpylint/actions/workflows/python-publish.yml
 [black-badge]: https://img.shields.io/badge/code%20style-black-000000.svg
-[black-url]: https://github.com/psf/black
+[black-url]: https://github.com/psf/black -->
