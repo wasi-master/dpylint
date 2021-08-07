@@ -11,12 +11,12 @@ class EventsChecker(DiscordBaseChecker):
     name = "events"
     msgs = {
         "E9004": (
-            "Invalid Event Name \"%s\", Did you mean %s",
+            "Invalid Event Name \"%s\", did you mean %s",
             "invalid-event-name",
             "The event used must be valid (for a list of valid events see {})".format(events_docs),
         ),
         "E9005": (
-            "Invalid Parameters passed to %s: %s valid parameters are %s",
+            "Invalid Parameters Passed to %s: %s valid parameters are %s",
             "invalid-event-params",
             "The event parameters must be valid",
         ),

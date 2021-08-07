@@ -9,17 +9,16 @@ class HasPermissionsChecker(DiscordBaseChecker):
     permissions_docs = "https://discordpy.readthedocs.io/en/latest/api.html#discord.Permissions"
 
     name = "invalid-permission"
-    priority = -1
     msgs = {
         "E9001": (
-            "Invalid Permission Name: \"%s\", Did you mean %s",
+            "Invalid Permission Name: \"%s\", did you mean %s",
             "invalid-permission-name",
             "All permissions passed to has_permissions must be valid (for a list of valid permissions see {})".format(
                 permissions_docs
             ),
         ),
         "W9002": (
-            "Permission value should not be \"%s\", it should be either True or False",
+            "Permission Value should not be \"%s\", it should be either True or False",
             "invalid-permission-value",
             "The value passed to has_permissions should be either True or False",
         ),
