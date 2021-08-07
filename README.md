@@ -68,7 +68,7 @@
 ## About The Project
 
 [![dpylint banner](https://raw.githubusercontent.com/wasi-master/dpylint/main/images/banner.png)](https://wasi-master.github.io/dpylint/)
-dpylint is a pylint extension that lints python code written for a discord bot
+dpylint is a pylint extension that lints python code written for a discord bot\
 For a demo see [demo.md](https://github.com/wasi-master/dpylint/blob/main/demo.md)
 
 ### Built With
