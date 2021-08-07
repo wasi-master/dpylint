@@ -12,6 +12,8 @@
 - [ ] Add message to follow variable name conventions in events
 - [ ] Suggest shorter aliases eg. ctx.send instead of ctx.channel.send
 - [ ] Check for `pass_context=True`
+- [ ] Check for command name kwarg same as event name
+- [ ] Check for having same aliases and name
 
 ## Fix
 
