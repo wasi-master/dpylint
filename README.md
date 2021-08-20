@@ -31,7 +31,9 @@
    <a href="https://github.com/wasi-master/dpylint"><img src="https://img.shields.io/github/languages/code-size/wasi-master/dpylint.svg?style=flat" alt="Code Size"></a>
    <a href="https://github.com/wasi-master/dpylint/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/wasi-master/dpylint.svg?style=flat" alt="MIT License"></a>
    <a href="https://saythanks.io/to/arianmollik323@gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanke"></a>
-   <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dm/dpylint.svg?style=flat" alt="Downloads"></a>
+   <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dm/dpylint.svg?style=flat" alt="Downloads last Month"></a>
+   <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dw/dpylint.svg?style=flat" alt="Downloads last Week"></a>
+   <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dd/dpylint.svg?style=flat" alt="Downloads last Day"></a>
    <a href="https://pypi.org/project/dpylint/#history"><img src="https://img.shields.io/pypi/v/dpylint.svg" alt="Version"></a>
    <a href="https://github.com/wasi-master/dpylint/actions/workflows/python-app.yml"><img src="https://img.shields.io/github/workflow/status/wasi-master/dpylint/Python%20application.svg?label=tests" alt="Tests"></a>
    <a href="https://github.com/wasi-master/dpylint/actions/workflows/python-publish.yml"><img src="https://img.shields.io/github/workflow/status/wasi-master/dpylint/Upload%20Python%20Package.svg?label=build" alt="Build"></a>
