@@ -24,7 +24,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    keywords="discord.py pylint-discord.py pylint-discord discord-pylint discord.py-pylint"
+    keywords="discord.py pylint-discord.py pylint-discord discord-pylint discord.py-pylint",
     packages=["dpylint", "dpylint.checkers", "dpylint.assets"],
     python_requires=">=3.5.3",
     install_requires=["pylint", "astroid", "discord.py"],
