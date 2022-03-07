@@ -6,6 +6,17 @@ import astroid
 class TestHasPermissionsChecker(pylint.testutils.CheckerTestCase):
     CHECKER_CLASS = dpylint.HasPermissionsChecker
 
+    def test_no_has_permissions(self):
+        func_node = astroid.extract_node("""
+        @commands.command()
+        async def test(ctx):
+            await ctx.send("hi")
+        """)
+
+        self.checker.visit_asyncfunctiondef(func_node)
+        with self.assertNoMessages():
+            pass
+
     def test_invalid_permission_value(self):
         deco_node, func_node = astroid.extract_node("""
         @commands.command()
@@ -16,7 +27,7 @@ class TestHasPermissionsChecker(pylint.testutils.CheckerTestCase):
 
         self.checker.visit_asyncfunctiondef(func_node)
         with self.assertAddsMessages(
-            pylint.testutils.Message(
+            pylint.testutils.MessageTest(
                 msg_id='W9002',
                 node=deco_node,
                 args='a'
@@ -34,10 +45,28 @@ class TestHasPermissionsChecker(pylint.testutils.CheckerTestCase):
 
         self.checker.visit_asyncfunctiondef(func_node)
         with self.assertAddsMessages(
-            pylint.testutils.Message(
+            pylint.testutils.MessageTest(
                 msg_id='E9001',
                 node=deco_node,
                 args=('manage_server', 'manage_guild')
+            )
+        ):
+            pass
+
+    def test_invalid_permission_name_typo(self):
+        deco_node, func_node = astroid.extract_node("""
+        @commands.command()
+        @commands.has_permissions(manage_messeges=True) #@
+        async def test(ctx): #@
+            await ctx.send("hi")
+        """)
+
+        self.checker.visit_asyncfunctiondef(func_node)
+        with self.assertAddsMessages(
+            pylint.testutils.MessageTest(
+                msg_id='E9001',
+                node=deco_node,
+                args=('manage_messeges', 'manage_messages')
             )
         ):
             pass
@@ -52,7 +81,7 @@ class TestHasPermissionsChecker(pylint.testutils.CheckerTestCase):
 
         self.checker.visit_asyncfunctiondef(func_node)
         with self.assertAddsMessages(
-            pylint.testutils.Message(
+            pylint.testutils.MessageTest(
                 msg_id='W9003',
                 node=deco_node,
             )
