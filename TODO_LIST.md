@@ -20,3 +20,4 @@
 ## Fix
 
 - [ ] Do something about the on_error event
+- [ ] Streamline the whole new checker adding process
