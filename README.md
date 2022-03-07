@@ -38,6 +38,7 @@
    <a href="https://github.com/wasi-master/dpylint/actions/workflows/python-app.yml"><img src="https://img.shields.io/github/workflow/status/wasi-master/dpylint/Python%20application.svg?label=tests" alt="Tests"></a>
    <a href="https://github.com/wasi-master/dpylint/actions/workflows/python-publish.yml"><img src="https://img.shields.io/github/workflow/status/wasi-master/dpylint/Upload%20Python%20Package.svg?label=build" alt="Build"></a>
    <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
+   <img src="https://raw.githubusercontent.com/wasi-master/dpylint/main/coverage.svg" alt="Code Coverage">
 </p>
 
 <!-- TABLE OF CONTENTS -->
