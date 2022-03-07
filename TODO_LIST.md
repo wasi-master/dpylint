@@ -14,6 +14,8 @@
 - [ ] Check for `pass_context=True`
 - [ ] Check for command name kwarg same as event name
 - [ ] Check for having same aliases and name
+- [x] Check for naming conventions for client and bot
+- [ ] Check for a `discord.Member` being names user and vice versa
 
 ## Fix
 
