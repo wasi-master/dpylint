@@ -78,7 +78,7 @@ In order to use the extension with vscode, make sure you have the python extensi
   4. Add `--load-plugins=dpylint` then click `OK`
     ![image](https://i.imgur.com/xHzwwft.png)
 
-## Checkers
+## Checks
 
 | Name                             | ID             | Details        |
 | -------------------------------- | -------------- | -------------- |
@@ -87,8 +87,10 @@ In order to use the extension with vscode, make sure you have the python extensi
 | no-permissions-specified         | W9003          | There should be at least one valid permission passed to has_permissions
 | invalid-event-name               | E9004          | An invalid event was used (for a list of valid events see [the docs](https://discordpy.readthedocs.io/en/latest/api.html#event-reference))
 | invalid-event-params             | E9005          | The event signature has invalid parameters
+| misleading-client                | C9006          | A bot instance should not be named client
 
-More checkers will be added in the future
+For more detailed information see [checks](/checks)
+More checks will be added in the future
 
 ## Demo
 
@@ -136,6 +138,12 @@ async def on_guld_jon(ctx):
     """Tests if the event name is right"""
     return ctx
 
+class MyBot(commands.Bot):
+    """Custom bot subclass demo"""
+
+client = commands.Bot("!")
+client = MyBot()
+
 ```
 
 Then running `pylint demo.py` will show these problems with our code:
@@ -148,6 +156,8 @@ demo.py:23:0: E9005: Invalid Parameters Passed to on_ready: (ctx) valid paramete
 demo.py:28:0: E9005: Invalid Parameters Passed to on_message: (message, user) valid parameters are (message) (invalid-event-params)
 demo.py:32:1: E9004: Invalid Event Name "on_tpying", did you mean on_typing (invalid-event-name)
 demo.py:38:0: E9004: Invalid Event Name "on_guld_jon", did you mean on_guild_join (invalid-event-name)
+demo.py:45:0: C9006: A bot instance should not be named client (misleading-client)
+demo.py:46:0: C9006: A bot instance should not be named client (misleading-client)
 ```
 
 ## Contributing

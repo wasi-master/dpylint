@@ -38,3 +38,9 @@ async def test(ctx):
 async def on_guld_jon(ctx):
     """Tests if the event name is right"""
     return ctx
+
+class MyBot(commands.Bot):
+    """Custom bot subclass demo"""
+
+client = commands.Bot("!")
+client = MyBot()
