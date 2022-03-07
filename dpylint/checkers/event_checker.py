@@ -25,10 +25,16 @@ class EventsChecker(DiscordBaseChecker):
     def visit_asyncfunctiondef(self, event_func):
         # We find any decorators named listener, listen or event
         # These are the decorators used for listening to events
-        deco = discord.utils.find(
-            lambda x: x.func and (any(x.func.attrname in word for word in ("listener", "listen", "event"))),
-            event_func.decorators.nodes,
-        )
+        try:
+            deco = discord.utils.find(
+                lambda x: x.func and (any(x.func.attrname in word for word in ("listener", "listen"))),
+                event_func.decorators.nodes,
+            )
+            is_listener = True
+        except AttributeError:
+            if event_func.decorators.nodes and event_func.decorators.nodes[0].attrname == "event":
+                is_listener = False
+                deco = event_func.decorators.nodes[0]
 
         # If the function does not have any of those decorators, we just return
         if not deco:
@@ -37,7 +43,7 @@ class EventsChecker(DiscordBaseChecker):
         event_name = None
 
         # Check if the event has a listener
-        if deco.func.attrname in ("listener", "listen"):
+        if is_listener:
             # Check if the event name was passed to the listener
             if deco.args:
                 # Check if the event name is valid
