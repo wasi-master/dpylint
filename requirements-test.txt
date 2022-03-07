@@ -2,3 +2,8 @@ astroid
 pylint
 discord.py
 dpylint
+pytest
+pytest-cov
+pytest-sugar
+pytest-clarity
+pytest-xdist
