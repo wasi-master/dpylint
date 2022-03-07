@@ -30,7 +30,7 @@
    <a href="https://github.com/wasi-master/dpylint/issues"><img src="https://img.shields.io/github/issues/wasi-master/dpylint.svg?style=flat" alt="Issues"></a>
    <a href="https://github.com/wasi-master/dpylint"><img src="https://img.shields.io/github/languages/code-size/wasi-master/dpylint.svg?style=flat" alt="Code Size"></a>
    <a href="https://github.com/wasi-master/dpylint/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/wasi-master/dpylint.svg?style=flat" alt="MIT License"></a>
-   <a href="https://saythanks.io/to/arianmollik323@gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanke"></a>
+   <a href="https://saythanks.io/to/wasi-master"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanke"></a>
    <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dm/dpylint.svg?style=flat" alt="Downloads last Month"></a>
    <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dw/dpylint.svg?style=flat" alt="Downloads last Week"></a>
    <a href="https://pypistats.org/packages/dpylint"><img src="https://img.shields.io/pypi/dd/dpylint.svg?style=flat" alt="Downloads last Day"></a>
@@ -168,6 +168,12 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 * Gnome from the official discord.py server
   * For the idea to check for aliases. e.g. ctx.channel.send instead of ctx.send
 
+* proguy (bobo yoda) from the official discord.py server
+  * For the idea to check for client instead of bot
+
+* Hay (Kekka)
+  * For the idea to check for misleading variable names for discord.User and discord.Member
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- [contributors-shield]: https://img.shields.io/github/contributors/wasi-master/dpylint.svg?style=flat
@@ -183,7 +189,7 @@ Email: [arianmollik323@gmail.com](mailto:arianmollik323@gmail.com)
 [code-size-shield]: https://img.shields.io/github/languages/code-size/wasi-master/dpylint.svg?style=flat
 [code-size-url]: https://github.com/wasi-master/dpylint
 [say-thanks-badge]: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
-[say-thanks-url]: https://saythanks.io/to/arianmollik323@gmail.com
+[say-thanks-url]: https://saythanks.io/to/wasi-master
 [downloads-badge]: https://img.shields.io/pypi/dm/dpylint.svg?style=flat
 [downloads-url]: https://pypistats.org/packages/dpylint
 [version-badge]: https://img.shields.io/pypi/v/dpylint.svg
